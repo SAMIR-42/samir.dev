@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Performance — Samir.dev</title>
+    <link rel="stylesheet" href="../style.css" />
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+
+  <body class="performance-page">
+    <header class="header">
+      <div class="container header-inner">
+        <a href="../index.html" class="logo">Samir.dev</a>
+      </div>
+    </header>
+
+    <main class="container performance-main">
+      <h1 class="performance-title">Performance Dashboard</h1>
+
+      <!-- Circular meters -->
+      <section class="performance-meters">
+        <div class="meter-card">
+          <svg class="meter" data-value="90">
+            <circle class="meter-bg" cx="60" cy="60" r="50" />
+            <circle class="meter-progress" cx="60" cy="60" r="50" />
+          </svg>
+          <p>HTML</p>
+        </div>
+
+        <div class="meter-card">
+          <svg class="meter" data-value="85">
+            <circle class="meter-bg" cx="60" cy="60" r="50" />
+            <circle class="meter-progress" cx="60" cy="60" r="50" />
+          </svg>
+          <p>CSS / UI</p>
+        </div>
+
+        <div class="meter-card">
+          <svg class="meter" data-value="75">
+            <circle class="meter-bg" cx="60" cy="60" r="50" />
+            <circle class="meter-progress" cx="60" cy="60" r="50" />
+          </svg>
+          <p>JavaScript</p>
+        </div>
+
+        <div class="meter-card">
+          <svg class="meter" data-value="65">
+            <circle class="meter-bg" cx="60" cy="60" r="50" />
+            <circle class="meter-progress" cx="60" cy="60" r="50" />
+          </svg>
+          <p>Backend</p>
+        </div>
+      </section>
+
+      <!-- Stats cards -->
+      <section class="performance-stats">
+        <div class="stat-card">
+          <h2 class="count" data-target="12">0+</h2>
+          <p>Projects Built</p>
+        </div>
+
+        <div class="stat-card">
+          <h2 class="count" data-target="150">0</h2>
+          <p>Learning Hours</p>
+        </div>
+
+        <div class="stat-card">
+          <h2 class="count" data-target="3">0</h2>
+          <p>Years Growth</p>
+        </div>
+      </section>
+
+      <!-- Timeline -->
+      <section class="performance-timeline">
+        <div class="timeline-item">
+          <h3>Started Coding</h3>
+          <p>Built first simple websites and games</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Real Projects</h3>
+          <p>Created usable platforms and apps</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Full Stack Learning</h3>
+          <p>Backend + database experience</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="../script.js"></script>
+  </body>
+</html>
