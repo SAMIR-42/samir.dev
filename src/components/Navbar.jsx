@@ -65,14 +65,14 @@ export default function Navbar() {
 
                 {/* Right: Download CV */}
                 <div className="hidden md:flex items-center gap-3">
-                    <motion.a
-                        href="https://drive.google.com/file/d/1LSNfQQVOKUqRWV41e6D7PX-MyAz4GjXw/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-500 to-violet-600 text-white text-sm font-medium rounded-full shadow-lg shadow-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/40 transition-all duration-200"
-                    >
+                  <motion.a
+    href="/samir-patil.resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
+    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-indigo-500 to-violet-600 text-white text-sm font-medium rounded-full shadow-lg shadow-indigo-500/30 hover:shadow-xl hover:shadow-indigo-500/40 transition-all duration-200"
+>
                         <FiDownload size={14} />
                         Resume
                     </motion.a>
@@ -106,12 +106,12 @@ export default function Navbar() {
                             {link.label}
                         </a>
                     ))}
-                    <a
-                        href="https://drive.google.com/file/d/1LSNfQQVOKUqRWV41e6D7PX-MyAz4GjXw/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 px-4 py-2 mt-2 bg-gradient-to-r from-indigo-500 to-violet-600 text-white text-sm font-medium rounded-full w-fit"
-                    >
+                <a
+    href="/samir-patil.resume.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-4 py-2 mt-2 bg-gradient-to-r from-indigo-500 to-violet-600 text-white text-sm font-medium rounded-full w-fit"
+>
                         <FiDownload size={14} />
                         Resume
                     </a>
