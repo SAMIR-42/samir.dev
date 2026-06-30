@@ -225,9 +225,9 @@ export default function Contact() {
                         </div>
                         <span className="text-slate-400 font-semibold text-sm">SAMIR PATIL</span>
                     </div>
-                    <p className="text-slate-600 text-xs">
-                        © 2025 Starfall Portfolio · Built with React &amp; Framer Motion
-                    </p>
+                   <p className="text-slate-600 text-xs flex items-center justify-center gap-1.5">
+ © 2026 Samir Patil. Designed & Developed with ❤️ using React.
+</p>
                 </motion.div>
             </div>
         </section>
