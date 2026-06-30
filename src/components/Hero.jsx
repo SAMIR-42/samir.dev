@@ -127,8 +127,8 @@ export default function Hero() {
                     transition={{ delay: 0.35, duration: 0.7 }}
                     className="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight"
                 >
-                    Yashashri{' '}
-                    <span className="gradient-text">Kadu</span>
+                    Samir{' '}
+                    <span className="gradient-text">Patil</span>
                 </motion.h1>
 
                 {/* Animated titles */}
